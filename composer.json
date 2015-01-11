@@ -1,0 +1,20 @@
+{
+    "name": "lapalabs/currency-bundle",
+    "description": "The bundle with abstract Currency entity based on Currency's data of Symfony Intl Component",
+    "keywords": ["lapalabs", "currency", "list", "bundle"],
+    "homepage": "https://github.com/LapaLabs/CurrencyBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LapaLabs",
+            "email": "mail@brainforce.kiev.ua"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "~2.0",
+        "twig/twig": "~1"
+    },
+    "autoload": {
+        "psr-4": {"LapaLabs\\CurrencyBundle\\": ""}
+    }
+}
