@@ -57,6 +57,7 @@ class AbstractLoadCurrencyData implements ContainerAwareInterface
             $currency->setCode($code);
             $sign = Intl::getCurrencyBundle()->getCurrencySymbol($code, $locale);
             $currency->setSign($sign);
+            $currency->setPublished(true);
             $manager->persist($currency);
         }
 
